@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AboutController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\JenjangController;
@@ -23,7 +24,7 @@ use App\Http\Controllers\WebController;
 // Frontend
 Route::get('/', [WebController::class, 'index']);
 Route::get('/kec/{id_kecamatan}', [WebController::class, 'kecamatan']);
-Route::get('/jenjang/{id_jenjang}', [WebController::class, 'jenjang']);
+Route::get('/jen/{id_jenjang}', [WebController::class, 'jenjang']);
 Route::get('/detailsekolah/{id_sekolah}', [WebController::class, 'detailsekolah']);
 
 
@@ -64,4 +65,5 @@ Route::get('/user/edit/{id}', [UserController::class, 'edit']);
 Route::post('/user/update/{id}', [UserController::class, 'update']);
 Route::get('/user/delete/{id}', [UserController::class, 'delete']);
 
-
+// about
+Route::get('/about', [AboutController::class, 'index'])->name('about');

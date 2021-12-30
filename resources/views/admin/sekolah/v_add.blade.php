@@ -95,7 +95,7 @@
                         </div>
                         <div class="col-sm-6">
                             <label>Foto Sekolah</label>
-                            <input type="file" name="foto" class="form-control @error('foto') is-invalid @enderror" accept=".jpeg,.png">
+                            <input type="file" name="foto" class="form-control @error('foto') is-invalid @enderror" accept=".jpeg,.png,.jpg">
                             <div class="text-danger ml-3">
                                 @error('foto')
                                     {{ $message }}

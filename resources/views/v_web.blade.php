@@ -40,7 +40,7 @@
 
         var map = L.map('map', {
             center: [-6.985601, 109.571299],
-            zoom: 11,
+            zoom: 10,
             layers: [peta1, 
             @foreach($kecamatan as $item)
                 data{{ $item->id_kecamatan }},
