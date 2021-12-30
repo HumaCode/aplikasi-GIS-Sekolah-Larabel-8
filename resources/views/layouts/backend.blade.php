@@ -195,7 +195,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <footer class="main-footer">
         <!-- To the right -->
         <div class="float-right d-none d-sm-inline">
-            Github <a href="">Klik Disini</a>
+            Github <a href="https://github.com/HumaCode/aplikasi-GIS-Sekolah-Larabel-8">Klik Disini</a>
         </div>
         <!-- Default to the left -->
         <strong>Copyright &copy; 2021.</strong> Humaidi Zakaria.
